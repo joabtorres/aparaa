@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo NAME_PROJECT ?></title>
 
-        <link rel="icon" type="image/png" href="<?php echo BASE_URL?>assets/imagens/icon.png" />
+        <link rel="icon" type="image/png" href="<?php echo BASE_URL ?>assets/imagens/icon.png" />
         <!-- Bootstrap -->
-        <link href="<?php echo BASE_URL?>assets/css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="<?php echo BASE_URL?>assets/css/style.css"/>
+        <link href="<?php echo BASE_URL ?>assets/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo BASE_URL ?>assets/css/style.css"/>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,7 +64,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="<?php echo BASE_URL?>assets/imagens/banner_inicial.png" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>" class="img-center"/>
+                            <img src="<?php echo BASE_URL ?>assets/imagens/banner_inicial.png" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>" class="img-center"/>
                         </div>
                     </div>
                 </div>
@@ -78,18 +78,25 @@
                         <h1 class="text-uppercase font-bold font-color-green text-center">SOBRE</h1>
                     </div>
                     <div class="col-md-5 col-lg-3">
-                        <img src="<?php echo BASE_URL?>assets/imagens/imagem_sobre.png" class="img-float-right img-responsive" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre.png" class="img-float-right img-responsive" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre2.png" class="img-float-right img-responsive hidden-sm" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre3.png" class="img-float-right img-responsive hidden-sm" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
                     </div>
                     <div class='col-md-7 col-lg-9'>
                         <h3 class="font-bold font-color-green">Quem somos</h3>
-                        <p class="text-justify text-indent">Fundada em 2006, a Cooperativa dos Taxistas de Itaituba – COOTAX tem o histórico de 12 anos, marcado por grandes desafios. Sua origem foi na cidade de Itaituba, município localizado na região oeste do estado Pará e que conforme os dados do IBGE (2010) possui cerca de 98 mil habitantes.</p>
-                        <p class="text-justify text-indent">Criada por um grupo de taxistas de Itaituba, com o objetivo de melhorar a qualidade de atendimento aos usuários, iniciou suas atividades com uma frota de 50 veículos.</p>
-                        <p class="text-justify text-indent">Com o crescimento da cidade de Itaituba e região e com o sucesso na prestação de serviço de transporte de passageiro, foi necessário expandir sua frota e inovar os seus serviços, abrindo novas inscrições, totalizando 150 cooperados.</p>
-                        <p class="text-justify text-indent">Atualmente existem 410 associados na cooperativa com uma frota de carros novos, todos de 4 (quatro) portas e equipados com ar condicionado, localizados estrategicamente em 32 pontos de apoio (Pontos de Táxi) em toda a cidade como no aeroporto de Itaituba, Terminal Hidroviário, Praça do Cidadão, Hospital Municipal, Porto da Balsa e Agências Bancárias.</p>
+                        <p class="text-justify text-indent">A Associação dos Pequenos Agricultores Rurais do Assentamento 15 de Agosto - APARAA, registrada no CNPJ 10.765.135/0001-00, constituída em 15 de agosto de 2008, é uma associação jurídica civil de direito privado sem fins lucrativos e econômicos que regerá por este estatuto e a legislação vigente em vigor, com a sede própria na localidade denominada de Assentamento 15 de Agosto, localizada na Rodovia BR 316 KM 54, Ramal do Itaqui, Km 17, próximo a Vila Trindade (Ramal São João), Zona Rural – Castanhal – PA, CEP: 68.745-000, e foro em Castanhal/Pará, sua área de atuação é no município de Castanhal/Pará, município localizado na região norte do estado Pará.</p>
+                        <p class="text-justify text-indent">A associação está direcionada a produção agrícola, apicultura e criação de animais, é constituído por um número de associados que compartilham de seus objetivos e princípios</p>
+                        <h4 class="font-bold font-color-green">A Associação dos Pequenos Agricultores Rurais do Assentamento 15 de Agosto – APARAA, tem como principais objetivos</h4>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Promover, estimular e difundir o espirito associativo e coletivo entre os moradores da comunidade, com vistas a sua alta sustentabilidade e melhoria de qualidade de vida de seus integrantes e associados;</p>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Fomentar e incentivar a pratica de atividades agrícolas e produção culturas (orgânicas hidropônicas), em busca da valorização do trabalho e da luta dos micros-produtores;</p>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Capacitar os produtores agrícolas através de cursos, debates, palestras, fóruns, seminários, congressos, etc, para que os mesmos possam gerenciar, com competência, seus negócios;</p>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Reivindicar junto aos poderes públicos a nível Municipal, Estadual e Federal, medidas que assegurem o desenvolvimento e o bem-estar da comunidade;</p>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Incentivar tanto o homem quanto a mulher a participação de grupos no processo produtivo e social;</p>
+                        <p><i class="font-color-blue glyphicon glyphicon-ok"></i> Promover parcerias com entidades externas como modo de incentivo ao produtor na melhoraria; e implementação de novos cultivares.</p>
                         <h3 class="font-bold font-color-green">Missão</h3>
-                        <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Prestar atendimento de transporte individual de passageiro, atender e superar as exigências do cliente.</p>
+                        <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Prestar vendas de produtos da agricultura familiar, atender e superar as exigências do cliente.</p>
                         <h3 class="font-bold font-color-green">Visão</h3>
-                        <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Ser referência na prestação de serviço pela excelência no atendimento.</p>
+                        <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Ser referência na comercialização dos produtos agrícolas com qualidade no atendimento.</p>
                         <h3 class="font-bold font-color-green">Valores</h3>
                         <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Ter a preferência do cliente.</p>
                         <p class="text-justify"><i class="font-color-blue glyphicon glyphicon-ok"></i> Integridade com todos os públicos.</p>
@@ -107,7 +114,7 @@
                         <h1 class="font-bold text-center">DIRETORIA </h1>
                         <p class="text-center">Veja a lista dos membros que participam e participaram da diretoria.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <h3>Diretoria Atual</h3>
                         <dl>
                             <dd>Jose Alencar - Diretor Presidente</dd>
@@ -131,70 +138,9 @@
                             <dd>Zedequias Carlos de Melo</dd>
                         </dl>
                     </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>3ª Diretoria de 2012 a 2017</h3>
-                                <dl>
-                                    <dd>Jose Alencar - Diretor Presidente</dd>
-                                    <dd>Jucie Ferreira de Almeida - Vice Diretor</dd>
-                                    <dd>Maria da Conceição - 1ª Secretaria   </dd>
-                                    <dd>Timoteo dos Santos Brandão - 1º Dr Financeiro</dd>
-                                </dl>
-                            </div>
-                            <div class="col-md-6">
-                                <h3>2ª Diretoria de 2008 a 2011</h3>
-                                <dl>
-                                    <dd>Zedequias Carlos de Melo - Diretor Presidente</dd>
-                                    <dd>Jose Alencar - Vice Diretor</dd>
-                                    <dd>Jucie Ferreira de Almeida - 1º Secretario</dd>
-                                    <dd>Timoteo dos Santos Brandão - 1º Dr Financeiro</dd>
-                                    <dd>Deoclecio Tome de Freitas - 2º Dr Financeiro</dd>
-                                    <dd><br/></dd>
-                                    <dt>Conselho Fiscal</dt>
-                                    <dd>José da Silva Barbosa - 1º Fiscal</dd>
-                                    <dd><br/></dd>
-                                    <dt>Suplentes</dt>
-                                    <dd>Dolvar Andrade de Lima - 1º Suplente Fiscal</dd>
-
-                                </dl>
-                            </div>
-                            <div class="col-md-6">
-                                <h3>1ª Diretoria de 2006 a 2008</h3>
-                                <dl>
-                                    <dd>Zedequias Carlos de Melo - Diretor Presidente</dd>
-                                    <dd>Jose Alencar - Vice Diretor</dd>
-                                    <dd>João batista Queiroz da Cruz - 1º Secretario</dd>
-                                    <dd>Celson Pereira da Silva 2º Secretario</dd>
-                                    <dd>Jucelino Pacheco dos Santos - 1º Dr Finaceiro</dd>
-                                    <dd>Arnaldo Bezerra de Sousa - 2º Dr Financeiro</dd>
-                                    <dd><br/></dd>
-                                    <dt>Conselho Fiscal</dt>
-                                    <dd>Jose Benedito Soares Sousa - 1º Fiscal</dd>
-                                    <dd>Timoteo dos Santos Brandão - 2º Fiscal</dd>
-                                    <dd>Raimundo Marculino de Oliveira - 3º Fiscal</dd>
-                                    <dd><br/></dd>
-                                    <dt>Suplentes</dt>
-                                    <dd>Daniel Alencar Silva - 1º Suplente Fiscal</dd>
-                                    <dd>Maria da Conceição - 2º Suplente Fiscal</dd>
-                                </dl>
-                            </div>
-                            <div class="col-md-6">
-                                <h3>Diretoria de Fundação</h3>
-                                <dl>
-                                    <dd>Zedequias Carlos de Melo - Diretor Presidente</dd>
-                                    <dd>Jose Alencar - Vice Diretor</dd>
-                                    <dd>Timoteo dos Santos Brandão - 1º Dr Financeiro</dd>
-                                    <dd>Jucelino Pacheco dos Santos - 2º Dr Finaceiro</dd>
-                                    <dd>Jucie Ferreira de Almeida - 1º Secretario</dd>
-                                    <dd><br/></dd>
-                                    <dt>Conselho Fiscal</dt>
-                                    <dd>Deoclecio Tome de Freitas - 1º Fiscal</dd>
-                                    <dd>Jose Benedito Soares Sousa - 2º Fiscal</dd>
-                                    <dd>Francisco Albino - 3º Fiscal</dd>
-                                </dl>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <p class="text-center text-uppercase font-bold">Área do Assentamento de 15 de Agosto </p>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/projeto-3.jpg" class="img-responsive img-center" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>">
                     </div>
                 </div>
             </div>
@@ -205,7 +151,7 @@
                     <div class="col-md-12">
                         <h1 class="text-center font-bold font-color-green text-uppercase">COOPERADOS</h1>
                         <h3 class="font-color-green font-bold">Papel do Cooperado</h3>
-                        <img src="<?php echo BASE_URL?>assets/imagens/cootax-itb-cooperados.png" alt="Cootax - Cooperados" title="Cootax- Figura de cooperação" class="img-float-right img-responsive"/>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/cootax-itb-cooperados.png" alt="Cootax - Cooperados" title="Cootax- Figura de cooperação" class="img-float-right img-responsive"/>
                         <p class="text-indent text-justify">
                             Para formar uma cooperativa é necessário que as pessoas interessadas estejam conscientes do que pretendem. O cooperado deve estar ciente de sua função de dono e usuário da sociedade. Organizado em comitês, conselhos, núcleos ou comissões, ele deve contribuir da melhor maneira possível em favor daqueles que recebem a incumbência da administração da empresa, para que todas as decisões sejam corretas e representativas da vontade da maioria.
                         </p>
@@ -315,11 +261,11 @@
                     </div>
                     <div class="col-md-12">
                         <article class="table-responsive">
-                            <table class="table table-striped table-bordered table-hover table-condensed">
+                            <table class="table table-bordered table-condensed">
                                 <tr>
                                     <th width="50px">#</th>
-                                    <th width="400px">Produto</th>
-                                    <th width="150px">Total de produtores</th>
+                                    <th width="550px">Produção</th>
+                                    <th width="200px">Quantitativo de produtores</th>
                                     <th>Porcentagem</th>
                                 </tr>
                                 <?php
@@ -332,8 +278,8 @@
                                             <td><?php echo $index['producao'] ?></td>
                                             <td><?php echo $index['qtd'] ?></td>
                                             <td>
-                                                <div class = "progress" style = "margin-bottom: 0;">
-                                                    <div class = "progress-bar progress-bar-striped progress-bar-animated bg-danger active" role = "progressbar" style = "width: <?php echo $this->getporcentagem($index['qtd'], $totalProducao) ?>%; height: 100%;" aria-valuenow = "100" aria-valuemin = "0" aria-valuemax = "<?php echo $this->getporcentagem($index['qtd'], $totalProducao) ?>"><?php echo $this->getporcentagem($index['qtd'], $totalProducao) ?>%</div>
+                                                <div style = "margin-bottom: 0;">
+                                                    <div class = "progress-bar progress-bar-success" role = "progressbar" style = "width: <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%; height: 100%;" aria-valuenow = "100" aria-valuemin = "0" aria-valuemax = " <?php echo ($index['qtd'] / $totalProducao) * 100; ?>"> <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%</div>
                                                 </div>
                                             </td>
                                         </tr>
@@ -392,7 +338,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <p class="text-center">
-                                © 2006-2018 - Cootax.com.br | Todos os direitos reservados<br/>
+                                © 2008-2022 - aparaa.com.br | Todos os direitos reservados<br/>
                                 É proibida a reprodução total ou parcial de qualquer conteúdo deste site.
                             </p>
                         </div>
@@ -402,11 +348,11 @@
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
+        <script src="<?php echo BASE_URL ?>assets/js/jquery.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?key=AIzaSyDptXrHmgnbA1pZlnvpR3GtwHRLyoGEG2s"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/move-top.js"></script>
-        <script src="js/cootax.js"></script>
+        <script src="<?php echo BASE_URL ?>assets/js/bootstrap.min.js"></script>
+        <script src="<?php echo BASE_URL ?>assets/js/move-top.js"></script>
+        <script src="<?php echo BASE_URL ?>assets/js/cootax.js"></script>
     </body>
 </html>

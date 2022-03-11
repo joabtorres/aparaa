@@ -58,7 +58,7 @@ body{
     background-color: #9C2800;
     color: #F8FFFB;
 }
-.panel-success{
+.panel-success, .panel-success > .panel-heading + .panel-collapse > .panel-body{
     border-color: #9C2800;
 }
 .panel-success > .panel-heading {
