@@ -36,15 +36,15 @@ $(document).ready(function () {
 
 if (document.getElementById("mapa_contato")) {
     function init_map1() {
-        var myLocation = new google.maps.LatLng(-4.27131308, -55.98034948);
+        var myLocation = new google.maps.LatLng(-1.419717, -48.014989);
         var mapOptions = {
             center: myLocation,
-            zoom: 16
+            zoom: 14
         };
         var marker = new google.maps.Marker({
             position: myLocation,
             title: "Localização dos imoveis da Kananda Imobiliaria!",
-            icon: "imagens/marcado.png"
+            icon: base_url+"assets/imagens/marcado.png"
         });
         var map = new google.maps.Map(document.getElementById("mapa_contato"),
                 mapOptions);

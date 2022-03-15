@@ -21,6 +21,7 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115249477-1"></script>
         <script>
+            var base_url = "<?php echo BASE_URL ?>";
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
@@ -51,7 +52,7 @@
                         <li><a href="#inicial" class="scroll">Inicial</a></li>
                         <li><a href="#sobre" class="scroll">Sobre</a></li>
                         <li><a href="#diretoria" class="scroll">Diretoria</a></li>
-                        <li><a href="#cooperados" class="scroll">Cooperado</a></li>
+                        <li><a href="#socios" class="scroll">Sócio</a></li>
                         <li><a href="#sites" class="scroll">Produção</a></li>
                         <li><a href="#contato" class="scroll">Contato</a></li>
                         <li><a href="https://sig.cootax.com.br">SIGAPA</a></li>
@@ -145,15 +146,15 @@
                 </div>
             </div>
         </div>
-        <div id="cooperados" class="bg-white">
+        <div id="socios" class="bg-white">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-center font-bold font-color-green text-uppercase">COOPERADOS</h1>
-                        <h3 class="font-color-green font-bold">Papel do Cooperado</h3>
-                        <img src="<?php echo BASE_URL ?>assets/imagens/cootax-itb-cooperados.png" alt="Cootax - Cooperados" title="Cootax- Figura de cooperação" class="img-float-right img-responsive"/>
+                        <h1 class="text-center font-bold font-color-green text-uppercase">Sócios</h1>
+                        <h3 class="font-color-green font-bold">Papel do Associado</h3>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/cootax-itb-cooperados.png" alt="<?php echo BASE_URL ?>" title="<?php echo BASE_URL ?>" class="img-float-right img-responsive"/>
                         <p class="text-indent text-justify">
-                            Para formar uma cooperativa é necessário que as pessoas interessadas estejam conscientes do que pretendem. O cooperado deve estar ciente de sua função de dono e usuário da sociedade. Organizado em comitês, conselhos, núcleos ou comissões, ele deve contribuir da melhor maneira possível em favor daqueles que recebem a incumbência da administração da empresa, para que todas as decisões sejam corretas e representativas da vontade da maioria.
+                            Para formar uma associação é necessário que as pessoas interessadas estejam conscientes do que pretendem. O sócio deve estar ciente de sua função de representante da sociedade. Organizado em comitês, conselhos, núcleos ou comissões, ele deve contribuir da melhor maneira possível em favor daqueles que recebem a incumbência da administração da empresa, para que todas as decisões sejam corretas e representativas da vontade da maioria.
                         </p>
                     </div>
                 </div>
@@ -161,18 +162,18 @@
                     <div class="col-md-6">
                         <div class="panel panel-success">
                             <div class="panel-heading">
-                                <h4 class="panel-title">Direitos do cooperado</h4>
+                                <h4 class="panel-title">Direitos do associado</h4>
                             </div>
                             <div class="panel-body">
                                 <ul class='list-unstyled'>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Votar e ser votado;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Participar de todas as operações da cooperativa;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Participar de todas as operações da associação;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Receber retorno de sobras apuradas no fim do ano;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Examinar livros e documentos;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Convocar assembleia, caso seja necessário;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Pedir esclarecimento aos Conselhos de Administração e Fiscal;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Opinar e defender suas ideias;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Propor ao Conselho de Administração, ou à Assembleia Geral, medidas de interesse da cooperativa.</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Propor ao Conselho de Administração, ou à Assembleia Geral, medidas de interesse da associação.</li>
                                 </ul>
                             </div>
                         </div>
@@ -180,74 +181,63 @@
                     <div class="col-md-6">
                         <div class="panel panel-success">
                             <div class="panel-heading">
-                                <h4 class="panel-title">Deveres do cooperado</h4>
+                                <h4 class="panel-title">Deveres do associado</h4>
                             </div>
                             <div class="panel-body">
                                 <ul class='list-unstyled'>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Operar com a cooperativa;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Operar com a associação;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Participar das Assembleias Gerais;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Pagar suas quotas-parte em dia;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Pagar suas mensalidades em dia;</li>
                                     <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Acatar as decisões da Assembleia Geral;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Votar nas eleições da cooperativa;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Cumprir seus compromissos com a cooperativa;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Zelar pela imagem da cooperativa;</li>
-                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Participar do rateio das perdas, se ocorrerem e das despesas da cooperativa.</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Votar nas eleições da associação;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Cumprir seus compromissos com a associação;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Zelar pela imagem da associação;</li>
+                                    <li><i class="font-color-blue glyphicon glyphicon-share-alt"></i> Participar do rateio das perdas, se ocorrerem e das despesas da associação.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="sites" class="bg_blue">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-indent text-justify">	Para associa-se na Cootax e necessário que faça sua ficha de inscrição, porem deverá levar os documentos necessário para cada modalidade de associado.</p>
-                        <div class="panel-group" id="collapseTiposCooperados">
-                            <div class="panel panel-success">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#collapseTiposCooperados" href="#collapsePermissionario">
-                                            Permissionário
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapsePermissionario" class="panel-collapse collapse in">
-                                    <div class="panel-body" id="temp1">
-                                        <p class="text-justify">Esta modalidade é para membros que querem fazer parte da cooperativa e exerce a profissão de taxista.</p>
-                                        <p class="font-bold font-color-green">Deverá apresentar os seguintes documento:</p>
-                                        <ul class='list-unstyled'>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Identidade pessoal;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Carteira de habilitação;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Comprovante de residência (Com carência no máximo 90 dias após a data do vencimento);</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> CPF;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> 1 Foto 3X4;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Documentação do veículo (em dia);</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Licença de trafego – (Alvará [carteira de licença de taxis]);</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-success">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#collapseTiposCooperados" href="#collapseParticipativo">
-                                            Participativo
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseParticipativo" class="panel-collapse collapse">
-                                    <div class="panel-body" id="temp2">
-                                        <p class="text-justify">Esta modalidade é para membros que querem fazer parte da cooperativa e que ainda não tenha posse de um veículo para trabalha nas atividades de taxista.</p>
-                                        <p class="font-bold font-color-green">Deverá apresentar os seguintes documento:</p>
-                                        <ul class='list-unstyled'>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Identidade pessoal;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Carteira de habilitação;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> CPF;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> 1 Foto 3X4;</li>
-                                            <li><i class="font-color-blue glyphicon glyphicon-ok"></i> Comprovante de residência (Com carência no máximo 90 dias após a data do vencimento);</li>
-                                        </ul>    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h1 class="text-uppercase text-center font-bold">Produção</h1>
+                        <p class="text-center">Confira a lista de produção mais realizada na <strong>APARAA</strong>.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <article class="table-responsive">
+                            <table class="table table-bordered table-condensed">
+                                <tr>
+                                    <th width="50px">#</th>
+                                    <th width="550px">Produção</th>
+                                    <th width="200px">Quantitativo de produtores</th>
+                                    <th>Porcentagem</th>
+                                </tr>
+                                <?php
+                                if (!empty($producao)):
+                                    $qtd = 1;
+                                    foreach ($producao as $index) :
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $qtd ?></td>
+                                            <td><?php echo $index['producao'] ?></td>
+                                            <td><?php echo $index['qtd'] ?></td>
+                                            <td>
+                                                <div style = "margin-bottom: 0;">
+                                                    <div class = "progress-bar progress-bar-success" role = "progressbar" style = "width: <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%; height: 100%;" aria-valuenow = "100" aria-valuemin = "0" aria-valuemax = " <?php echo ($index['qtd'] / $totalProducao) * 100; ?>"> <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <?php
+                                        $qtd++;
+                                    endforeach;
+                                endif;
+                                ?>
+                            </table>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -303,17 +293,17 @@
                     <div class="col-md-12">
                         <div id="mapa_contato"></div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <h4 class="text-uppercase  font-bold font-color-green">Endereço</h4>
-                        <p> <span class="glyphicon glyphicon-home"></span> Travessa João Pessoa, nº 215, Centro - Itaituba - Pará, CEP: 68180-650.</p>
+                        <p> <span class="glyphicon glyphicon-home"></span> Rodovia BR 316 KM 54, Ramal do Itaqui, Km 17, próximo a Vila Trindade (Ramal São João), Zona Rural – Castanhal – PA, CEP: 68.745-000.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <h4 class="text-uppercase  font-bold font-color-green">Telefone</h4>                     
-                        <p><span class="glyphicon glyphicon-phone"></span> (93) 99158-9470 | (93) 3518-0264.</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> (91) 9 8497-0217.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <h4 class="text-uppercase  font-bold font-color-green">Email</h4>                        
-                        <p><span class="glyphicon glyphicon-envelope"></span> cootax.itb@gmail.com</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> aparaa.castanhal@gmail.com</p>
                     </div>
                     <div class="col-md-12">
                         <div class="row">
