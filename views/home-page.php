@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <title><?php echo NAME_PROJECT ?></title>
 
         <link rel="icon" type="image/png" href="<?php echo BASE_URL ?>assets/imagens/icon.png" />
@@ -297,7 +298,7 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="<?php echo BASE_URL ?>assets/js/jquery.min.js"></script>
         <script src="<?php echo BASE_URL ?>assets/js/lightbox.js"></script>
-        <script src="http://maps.google.com/maps/api/js?key=AIzaSyCg1ogHawJGuDbw7nd6qBz9yYxYPoGTWQo&callback=initialize"></script>
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyC3OSDlaboi36Wf9-8vl3kBWulaY1-4EK8&callback=initialize"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?php echo BASE_URL ?>assets/js/bootstrap.min.js"></script>
         <script src="<?php echo BASE_URL ?>assets/js/move-top.js"></script>
