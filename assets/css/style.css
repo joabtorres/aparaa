@@ -47,11 +47,13 @@ body{
     font-weight: bold;
 }
 .font-color-green{
-    color:#9C2800;
+    color:#6A3624;
 }
 .font-color-blue{color:#0091e1}
+.bg-green .font-color-green{color: #5cb85c;}
+.font-color-white{color: white}
 .bg-green{
-    background-color: #9C2800;
+    background-color: #6A3624;
     color: #F8FFFB;
 }
 .bg_blue{
@@ -59,11 +61,11 @@ body{
     color: #F8FFFB;
 }
 .panel-success, .panel-success > .panel-heading + .panel-collapse > .panel-body{
-    border-color: #9C2800;
+    border-color: #6A3624;
 }
 .panel-success > .panel-heading {
-    border-color: #9C2800;
-   background-color: #9C2800;
+    border-color: #6A3624;
+    background-color: #6A3624;
 }
 .bg-white{
     color: #333333;
@@ -90,12 +92,12 @@ body{
         background-repeat: no-repeat;
     }
 }
-#navbar-menu-principal .navbar-nav li a:hover{
+#navbar-menu-principal .navbar-nav li a:hover, #navbar-menu-principal .navbar-nav .active a{
     background-color: #9C2800;
     color: #F8FFFB;
 }
 /*containers*/
-#sobre, #diretoria, #cooperados, #contato, #sites, #rodape, #disk_taxi{
+#sobre, #diretoria, #cooperados, #contato, #sites, #rodape, #galeria{
     padding: 30px 0;
 }
 /*Inicial*/
@@ -103,7 +105,7 @@ body{
 #banner-inicial{
     background-image: url('../imagens/banner-inicial_1920.jpg');
     color: white;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 #banner-inicial img{
     margin-top: 0px;
@@ -157,9 +159,17 @@ body{
 #contato #form-contato .form-control{
     border-radius: 0;
     margin-bottom: 10px;
-    border-color: #006A35;
-    background-color: #F8FFFB;
+    border-color: #6A3624;
+    background-color: rgba(106,54,36, 0.05);
     min-width: 100%;
+}
+.btn-success{
+    background: #6A3624;
+    border-color: #6A3624;
+}
+.btn-success:hover{
+    background: #4b2518;
+     border-color: #4b2518;
 }
 #contato #form-contato .btn{
     border-radius: 0;

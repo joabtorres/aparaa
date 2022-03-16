@@ -21,16 +21,16 @@ if (ENVIRONMENT == 'development') {
     $config['dbpass'] = '';
 } else {
      //Raiz
-    define("BASE_URL", "https://localhost/sispam/");
+    define("BASE_URL", "https://aparaa.joabtorres.com.br/");
     //nome do projeto
-    define("NAME_PROJECT", "SISPAM - Sistema de Procedimentos Ambientais");
+    define("NAME_PROJECT", "APARAA - Associação de Pequenos Agricultores do Assentamento 15 de Agosto");
     //Nome do banco
-    $config['dbname'] = 'sispam';
+    $config['dbname'] = 'joabtorr_sigapa';
     //host
     $config['host'] = 'localhost';
     //usuario
-    $config['dbuser'] = 'root';
+    $config['dbuser'] = 'joabtorr_develop';
     //senha
-    $config['dbpass'] = '';
+    $config['dbpass'] = '+f#yNqTQq2)L';
 }
 ?>

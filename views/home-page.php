@@ -9,26 +9,10 @@
         <link rel="icon" type="image/png" href="<?php echo BASE_URL ?>assets/imagens/icon.png" />
         <!-- Bootstrap -->
         <link href="<?php echo BASE_URL ?>assets/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo BASE_URL ?>assets/css/lightbox.css"/>
         <link rel="stylesheet" href="<?php echo BASE_URL ?>assets/css/style.css"/>
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115249477-1"></script>
         <script>
             var base_url = "<?php echo BASE_URL ?>";
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'UA-115249477-1');
         </script>
 
     </head>
@@ -53,9 +37,10 @@
                         <li><a href="#sobre" class="scroll">Sobre</a></li>
                         <li><a href="#diretoria" class="scroll">Diretoria</a></li>
                         <li><a href="#socios" class="scroll">Sócio</a></li>
+                        <li><a href="#galeria" class="scroll">Galeria</a></li>
                         <li><a href="#sites" class="scroll">Produção</a></li>
                         <li><a href="#contato" class="scroll">Contato</a></li>
-                        <li><a href="https://sig.cootax.com.br">SIGAPA</a></li>
+                        <li><a href="https://sigapa.joabtorres.com.br">SIGAPA</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid-fluid -->
@@ -72,14 +57,14 @@
             </div>
         </div>
 
-        <div id="sobre" class="bg-white clear">
+        <div id="sobre" class="bg-success clear">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="text-uppercase font-bold font-color-green text-center">SOBRE</h1>
                     </div>
                     <div class="col-md-5 col-lg-3">
-                        <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre.png" class="img-float-right img-responsive" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
+                        <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre.png" class="img-float-right img-responsive hidden-lg" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
                         <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre2.png" class="img-float-right img-responsive hidden-sm" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
                         <img src="<?php echo BASE_URL ?>assets/imagens/imagem_sobre3.png" class="img-float-right img-responsive hidden-sm" style="margin-top: 5%" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>"/>
                     </div>
@@ -108,15 +93,15 @@
             </div>
         </div>
 
-        <div id="diretoria" class="bg_blue clear">
+        <div id="diretoria" class="bg-green clear">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="font-bold text-center">DIRETORIA </h1>
+                        <h1 class="font-bold text-center font-color-green ">DIRETORIA </h1>
                         <p class="text-center">Veja a lista dos membros que participam e participaram da diretoria.</p>
                     </div>
                     <div class="col-md-6">
-                        <h3>Diretoria Atual</h3>
+                        <h3 class="font-color-green">Diretoria Atual</h3>
                         <dl>
                             <dd>Jose Alencar - Diretor Presidente</dd>
                             <dd>João  Soriano Pinheiro - Vice Diretor</dd>
@@ -125,22 +110,22 @@
                             <dd>Alexandre da Silva Soares - 1º Tesoureiro</dd>
                             <dd>Ailton Sousa Reis - 2º Secretário</dd>
                             <dd><br/></dd>
-                            <dt>Conselho Fiscal</dt>
+                            <dt class="font-color-green">Conselho Fiscal</dt>
                             <dd>Timoteo Santos Brandão - 1º Fiscal</dd>
                             <dd>Raimundo Leite - 2º Fiscal</dd>
                             <dd>Antonio Luiz da Silva Sousa - 3º Fiscal</dd>
                             <dd><br/></dd>
-                            <dt>Suplentes</dt>
+                            <dt class="font-color-green">Suplentes</dt>
                             <dd>Antonio Jose Bruno da Silva - 1º Suplente Fiscal</dd>
                             <dd>Dovar Andrade de Lima - 2º Suplente Fiscal</dd>
                             <dd>Ozimar Oliveira Silva - 3º Suplente Fiscal</dd>
                             <dd><br/></dd>
-                            <dt>Relações Publica</dt>
+                            <dt class="font-color-green">Relações Publica</dt>
                             <dd>Zedequias Carlos de Melo</dd>
                         </dl>
                     </div>
                     <div class="col-md-6">
-                        <p class="text-center text-uppercase font-bold">Área do Assentamento de 15 de Agosto </p>
+                        <p class="text-center text-uppercase font-bold font-color-green">Área do Assentamento de 15 de Agosto </p>
                         <img src="<?php echo BASE_URL ?>assets/imagens/projeto-3.jpg" class="img-responsive img-center" alt="<?php echo NAME_PROJECT ?>" title="<?php echo NAME_PROJECT ?>">
                     </div>
                 </div>
@@ -200,62 +185,37 @@
                 </div>
             </div>
         </div>
-        <div id="sites" class="bg_blue">
+        <div id="galeria" class="bg-success clearfix">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-uppercase text-center font-bold">Produção</h1>
+                        <h1 class="text-uppercase text-center font-bold font-color-green">Galeria</h1>
                         <p class="text-center">Confira a lista de produção mais realizada na <strong>APARAA</strong>.</p>
                     </div>
-                    <div class="col-md-12">
-                        <article class="table-responsive">
-                            <table class="table table-bordered table-condensed">
-                                <tr>
-                                    <th width="50px">#</th>
-                                    <th width="550px">Produção</th>
-                                    <th width="200px">Quantitativo de produtores</th>
-                                    <th>Porcentagem</th>
-                                </tr>
-                                <?php
-                                if (!empty($producao)):
-                                    $qtd = 1;
-                                    foreach ($producao as $index) :
-                                        ?>
-                                        <tr>
-                                            <td><?php echo $qtd ?></td>
-                                            <td><?php echo $index['producao'] ?></td>
-                                            <td><?php echo $index['qtd'] ?></td>
-                                            <td>
-                                                <div style = "margin-bottom: 0;">
-                                                    <div class = "progress-bar progress-bar-success" role = "progressbar" style = "width: <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%; height: 100%;" aria-valuenow = "100" aria-valuemin = "0" aria-valuemax = " <?php echo ($index['qtd'] / $totalProducao) * 100; ?>"> <?php echo ($index['qtd'] / $totalProducao) * 100; ?>%</div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <?php
-                                        $qtd++;
-                                    endforeach;
-                                endif;
-                                ?>
-                            </table>
-                        </article>
+                    <div class="col-md-12 text-center">
+                        <div>
+                            <?php for ($i = 1; $i <= 19; $i++) : ?>
+                                <a class="example-image-link" href="<?php echo BASE_URL ?>assets/imagens/galeria/regular-0<?php echo $i ?>.jpg" data-lightbox="example-set"><img class="example-image" style="margin:2px 0;"  src="<?php echo BASE_URL ?>assets/imagens/galeria/min-0<?php echo $i ?>.jpg"/></a>
+                            <?php endfor; ?>  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="sites" class="bg_blue">
+        <div id="sites" class="bg-green clearfix">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-uppercase text-center font-bold">Produção</h1>
+                        <h1 class="text-uppercase text-center font-bold font-color-green">Produção</h1>
                         <p class="text-center">Confira a lista de produção mais realizada na <strong>APARAA</strong>.</p>
                     </div>
                     <div class="col-md-12">
                         <article class="table-responsive">
                             <table class="table table-bordered table-condensed">
-                                <tr>
+                                <tr class="font-color-green">
                                     <th width="50px">#</th>
                                     <th width="550px">Produção</th>
-                                    <th width="200px">Quantitativo de produtores</th>
+                                    <th width="220px">Nº de produtores</th>
                                     <th>Porcentagem</th>
                                 </tr>
                                 <?php
@@ -263,7 +223,7 @@
                                     $qtd = 1;
                                     foreach ($producao as $index) :
                                         ?>
-                                        <tr>
+                                <tr class="font-color-white">
                                             <td><?php echo $qtd ?></td>
                                             <td><?php echo $index['producao'] ?></td>
                                             <td><?php echo $index['qtd'] ?></td>
@@ -307,14 +267,11 @@
                     </div>
                     <div class="col-md-12">
                         <div class="row">
-                            <form id="form-contato" method="POST" action="recaptch.php">
+                            <form id="form-contato" method="POST">
                                 <div class="col-md-4"><input type="text" class="form-control" name="nNome" placeholder="Nome: Joab Torres Alencar"/></div>
                                 <div class="col-md-4"><input type="text" class="form-control" name="nEmail" placeholder="Email / Telefone: joab.alencar@hotmail.com"/></div>
-                                <div class="col-md-4"><input type="text" class="form-control" name="nAssunto" placeholder="Assunto: Procura-se serviço de taxi"/></div>
-                                <div class="col-md-12"><textarea name="nMensagem" class="form-control" placeholder="Mensagem: Olá, estou precisando de um táxi, estarei visitando o munícipio de Itaituba e precisarei de locomoção, desse modo, gostaria que entrassem em contato comigo." rows="10"></textarea></div>
-                                <div class="col-md-12">
-                                    <div class="g-recaptcha" data-sitekey="6LfpXUgUAAAAALxOx4Zw97kKhg88gbJuGtx0IWQx"></div>
-                                </div>
+                                <div class="col-md-4"><input type="text" class="form-control" name="nAssunto" placeholder="Assunto: Interessado em comprar açai"/></div>
+                                <div class="col-md-12"><textarea name="nMensagem" class="form-control" placeholder="Mensagem: Olá, estou precisando de fornecedores em periodo de safra do açai, desse modo, gostaria que entrassem em contato comigo." rows="10"></textarea></div>
                                 <div class="col-md-12"><button type="submit" name="nEnviar"  value="Enviar" class="btn btn-success" >Enviar</button></div>
                             </form>
                         </div>
@@ -339,7 +296,8 @@
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="<?php echo BASE_URL ?>assets/js/jquery.min.js"></script>
-        <script src="http://maps.google.com/maps/api/js?key=AIzaSyDptXrHmgnbA1pZlnvpR3GtwHRLyoGEG2s"></script>
+        <script src="<?php echo BASE_URL ?>assets/js/lightbox.js"></script>
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyCg1ogHawJGuDbw7nd6qBz9yYxYPoGTWQo&callback=initialize"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="<?php echo BASE_URL ?>assets/js/bootstrap.min.js"></script>
         <script src="<?php echo BASE_URL ?>assets/js/move-top.js"></script>

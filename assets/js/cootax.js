@@ -35,7 +35,7 @@ $(document).ready(function () {
 });
 
 if (document.getElementById("mapa_contato")) {
-    function init_map1() {
+    function initialize() {
         var myLocation = new google.maps.LatLng(-1.419717, -48.014989);
         var mapOptions = {
             center: myLocation,
@@ -50,5 +50,5 @@ if (document.getElementById("mapa_contato")) {
                 mapOptions);
         marker.setMap(map);
     }
-    init_map1();
+    initialize();
 }
